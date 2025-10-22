@@ -355,7 +355,7 @@ if __name__ == "__main__":
     print(olympiacos.get_team_info())
     print(olympiacos.chant())
     
-    simulator = MatchSimulator("PAOK FC", "Olympiacos FC")
+    simulator = MatchSimulator("PAOK FC ", "Olympiacos FC")
     final_scores = simulator.simulate_full_match()
     
     # Future API call
