@@ -347,11 +347,11 @@ class MatchSimulator:
 
 # Example usage
 if __name__ == "__main__":
-    paok = PAOK()
+    paok = PAOK FC()
     print(paok.get_team_info())
     print(paok.chant())
     
-    olympiacos = Olympiacos()
+    olympiacos = Olympiacos FC()
     print(olympiacos.get_team_info())
     print(olympiacos.chant())
     
